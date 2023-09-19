@@ -5,8 +5,8 @@ import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
 import Aside from "./Components/Aside/UpComingMatches";
 import Footer from "./Components/Footer/Copyright";
-import Section1 from './Components/Section1/Section1';
-import Section2 from "./Components/Section2/Gallery"
+import Section1 from "./Components/Section1/Section1";
+import Section2 from "./Components/Section2/Gallery";
 
 function App() {
   return (
@@ -23,4 +23,3 @@ function App() {
 }
 
 export default App;
- 

@@ -1,7 +1,142 @@
-/* app.css */
+/* App.css */
 
-/* Resize images inside the Gallery component to 500x500 pixels */
-.Gallery img {
-  width: 500px;
-  height: 500px;
+
+/* Target all images within the Carousel */
+.Carousel img {
+  max-width: 300px; /* Adjust image width */
+  max-height: 400px; /* Adjust image height */
+}
+
+/* Target the specific video iframe */
+.Carousel .video-frame {
+  max-width: 500px; /* Adjust video width */
+  max-height: 350px; /* Adjust video height */
+}
+
+
+/* Style the Navigation component */
+.Navigation {
+  background-color: #333; /* Background color for the navigation bar */
+  height: 60px; /* Adjust the height as needed */
+}
+
+.main_nav {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Make the list items display horizontally */
+  justify-content: space-around; /* Distribute items evenly */
+  align-items: center; /* Vertically align items in the center of the navigation bar */
+}
+
+.main_nav li {
+  margin: 0 10px; /* Add margin between menu items */
+}
+
+.main_nav a {
+  text-decoration: none;
+  color: #fff; /* Text color for menu items */
+}
+
+.main_nav a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.MainSection {
+  display: flex; /* Use flexbox to control layout */
+  float: right;
+  width: 70%;
+}
+
+/* Adjust styles for the News component as needed */
+.News {
+  float: center;
+}
+
+/* Adjust styles for the Sponsor component as needed */
+.Sponsor {
+  float: center;
+}
+
+/* Style the match history container to display items horizontally */
+.match_history.horizontal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center; /* Center items vertically */
+}
+
+/* Style individual match items */
+.match_item {
+  margin-right: 10px; /* Add spacing between items */
+  padding: 5px; /* Add some padding for better spacing */
+  border: 1px solid #ccc; /* Add a border for separation */
+}
+
+/*Welcome styling */
+.Welcome {
+  display: flex;
+  justify-content: center;
+  background-color: #4287f5;
+  color: white;
+  padding: 20px;
+}
+
+.PlayerStats {
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.NewsLetter {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: white;
+  padding: 20px; 
+}
+
+/*Footer*/
+.Footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+.Footer a {
+  color: #ff9500; /* Change the link color to your preference */
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.Footer a:hover {
+  text-decoration: underline;
+}
+
+/* Style the UpcomingMatches */
+.Upcoming_Matches {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+/* Center the text in the list */
+.matches {
+  text-align: center;
+}
+
+/* Style the list items */
+.matches li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+/* h2 heading clear both */
+.h2Clear {
+  clear: both;
+  text-align: center;
 }

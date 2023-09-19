@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Newsletter() {
-  // Define state variables to store form input values
+  //variables to store input
   const [email, setEmail] = useState('');
   const [firstName, setFirstName] = useState('');
   const [surname, setSurname] = useState('');

@@ -1,10 +1,11 @@
+
 import React from 'react';
 
 function PlayerStats() {
   return (
     <div className='PlayerStats'>
       <h2>Player Stats</h2>
-      <table className="player_stats" border="2px" width="100%" height="300" cellpadding="5">
+      <table className="player_stats" border="2px" width="100%" height="300" cellPadding="5">
         <thead>
           <tr>
             <th>Player</th>
