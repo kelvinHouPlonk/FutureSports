@@ -27,7 +27,7 @@ function Gallery() {
           <figcaption className="img_placehold">Goalie Kicking Ball</figcaption>
         </div>
         <div>
-          <img src="Headcoach.jpg" alt="Headcoach of the Team" />
+          <img src="https://picx.zhimg.com/70/v2-876538dac03b0a9a0dad3f1aec4f4f92_1440w.image?source=172ae18b&biz_tag=Post" alt="Headcoach of the Team" />
           <figcaption>Headcoach of the Team</figcaption>
         </div>
       </div>
