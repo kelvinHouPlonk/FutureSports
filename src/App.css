@@ -42,36 +42,45 @@
   text-decoration: underline; /* Add underline on hover */
 }
 
-.MainSection {
-  display: flex; /* Use flexbox to control layout */
-  float: right;
-  width: 70%;
-}
 
 /* Adjust styles for the News component as needed */
 .News {
+  float: right;
+  width: 70%;
   float: center;
 }
+
+/*
+.NewsHeading {
+  float: center;
+}
+*/
 
 /* Adjust styles for the Sponsor component as needed */
 .Sponsor {
   float: center;
 }
 
-/* Style the match history container to display items horizontally */
-.match_history.horizontal {
+.MatchHistory {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
-  justify-content: flex-start; /* Align items to the left */
-  align-items: center; /* Center items vertically */
+  flex-direction: column; /* Display items in a column layout */
+  align-items: center; /* Center items horizontally */
+  padding: 20px; /* Add space around the content */
+  box-sizing: border-box; /* Include padding in the element's total width */
 }
 
-/* Style individual match items */
+.MatchHistory h2 {
+  margin-bottom: 20px; /* Add space below the h2 heading */
+}
+
 .match_item {
-  margin-right: 10px; /* Add spacing between items */
-  padding: 5px; /* Add some padding for better spacing */
-  border: 1px solid #ccc; /* Add a border for separation */
+  width: 100%; /* Set the width of each item to 100% (full width) */
+  margin: 5px 0; /* Add margin between items (vertical margin) */
+  background-color: #f0f0f0; /* Add background color to items */
+  padding: 10px; /* Add padding to items */
+  box-sizing: border-box; /* Include padding in the item's total width */
+  text-align: center; /* Center text horizontally */
+  border: 1px solid #ccc; /* Add a border to items (optional) */
 }
 
 /*Welcome styling */
@@ -98,6 +107,41 @@
   padding: 20px; 
 }
 
+.Newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text within each input field */
+}
+
+/* Style the labels for the input fields */
+.Newsletter label {
+  margin-bottom: 5px; /* Add some space below each label */
+}
+
+/* Style the input fields */
+.Newsletter input {
+  width: 100%; /* Set the input fields to take up 100% of their container */
+  padding: 10px; /* Add padding to the input fields */
+  margin-bottom: 10px; /* Add some space below each input field */
+  box-sizing: border-box; /* Include padding in the input field's total width */
+}
+
+/* Style the submit button */
+.Newsletter button {
+  background-color: #4287f5; /* Add a background color to the button */
+  color: white; /* Text color for the button */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove the button border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Center the submit button horizontally */
+.Newsletter button {
+  margin: 0 auto;
+}
+
 /*Footer*/
 .Footer {
   background-color: #333;
@@ -119,7 +163,6 @@
 
 /* Style the UpcomingMatches */
 .Upcoming_Matches {
-  float: left;
   width: 30%;
   padding: 20px;
 }
@@ -139,4 +182,9 @@
 .h2Clear {
   clear: both;
   text-align: center;
+}
+
+/*Player stats heading*/
+.PlayerStatsHeading{
+  float: center;
 }
