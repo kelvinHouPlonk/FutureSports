@@ -17,14 +17,14 @@ class Player {
 
 // Player creation(Object)
 const players = [
-  new Player('Player 1', 10, 5, 2, 0, 20, '85%'),
-  new Player('Player 2', 5, 12, 1, 0, 8, '92%'),
-  new Player('Player 3', 7, 8, 3, 1, 12, '80%'),
-  new Player('Player 4', 3, 2, 0, 0, 6, '88%'),
-  new Player('Player 5', 12, 6, 2, 1, 24, '75%'),
-  new Player('Player 6', 2, 3, 0, 0, 5, '90%'),
-  new Player('Player 7', 8, 4, 1, 0, 10, '85%'),
-  new Player('Player 8', 6, 9, 0, 0, 14, '88%'),
+  new Player('Arina Hashimoto', 10, 5, 2, 0, 20, '85%'),
+  new Player('Yua Mikami', 5, 12, 1, 0, 8, '92%'),
+  new Player('Rima Arai', 7, 8, 3, 1, 12, '80%'),
+  new Player('胡桃', 3, 2, 0, 0, 6, '88%'),
+  new Player('Nahida', 12, 6, 2, 1, 24, '75%'),
+  new Player('Hatsune Miku', 2, 3, 0, 0, 5, '90%'),
+  new Player('Chisato', 8, 4, 1, 0, 10, '85%'),
+  new Player('Asuna Yukki', 6, 9, 0, 0, 14, '88%'),
   //More players can be added when needed
 ];
 

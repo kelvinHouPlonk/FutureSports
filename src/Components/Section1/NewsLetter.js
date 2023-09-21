@@ -10,8 +10,12 @@ function Newsletter() {
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent the default form submission behavior
 
-    // Display an alert with the form input values
-    alert(`Your inputs are \nEmail: ${email}\nFirst name: ${firstName}\nSurname: ${surname}`);
+    // Check if any of the input fields are empty
+    if (email === '' || firstName === '' || surname === '') {
+      alert('Error: One of the field is empty');
+    } else {
+      alert(`Your inputs are \nEmail: ${email}\nFirst name: ${firstName}\nSurname: ${surname}`);
+    }
   };
 
   return (
